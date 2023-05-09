@@ -30,7 +30,6 @@ public class MyFirstRestAPI {
 		students.add(new Student("105", "ramit", "Address 1"));
 		students.add(new Student("106", "jamit", "Address 1"));
 		students.add(new Student("107", "hamit", "Address 1"));
-		students.add(new Student("108", "Anit", "Address 1"));
 		return students;
 	}
 	@GetMapping("produce")
