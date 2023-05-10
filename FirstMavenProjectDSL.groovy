@@ -13,7 +13,7 @@ job('First_Maven_Project_DSL')
 	{
 		maven('clean package', 'webprojectapi/pom.xml')
 	}
-	publisher
+	publishers
 	{
 		archiveArtifacts '**/*.war'
 	}
